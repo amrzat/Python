@@ -21,5 +21,4 @@ print(age_over_18([
 ]))
 
 # Expected Output: 
-#[ { name: 'Peter Chan', age: 22 },
-#  { name: 'Erika Lee', age: 30  }]
+#[ { name: 'Peter Chan', age: 22 }, { name: 'Erika Lee', age: 30  }]
