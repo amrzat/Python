@@ -1,0 +1,25 @@
+# Task: Make a filtered list of all the people who are over 18
+
+def age_over_18(arr):
+  # Add your code here
+  new_arr = []
+  for i in range(len(arr)):
+    if arr[i]["age"] >= 18:
+      new_arr.append(arr[i])
+  return new_arr
+
+
+
+# DO NOT EDIT CODE BELOW
+# Test Cases:
+print(age_over_18([
+  { "name": "Peter Chan", "age": 22 },
+  { "name": "Darren Chiu", "age": 12 },
+  { "name": "Paul Lau", "age": 5 },
+  { "name": "Erika Lee", "age": 30 },
+  { "name": "Anthony Wong", "age": 16 } 
+]))
+
+# Expected Output: 
+#[ { name: 'Peter Chan', age: 22 },
+#  { name: 'Erika Lee', age: 30  }]
