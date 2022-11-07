@@ -6,9 +6,6 @@ def print_all_keys(inputDict):
     for k in inputDict.keys():
         print(k)
 
-
-
-
 # DO NOT EDIT CODE BELOW
 # Test Case：
 student = {
