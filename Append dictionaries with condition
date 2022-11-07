@@ -9,7 +9,6 @@ def age_over_18(arr):
   return new_arr
 
 
-
 # DO NOT EDIT CODE BELOW
 # Test Cases:
 print(age_over_18([
