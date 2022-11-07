@@ -161,6 +161,4 @@ while not gameEnded:
             else:
                 currentTurnPlayer = 'X'
         
-
-
 # Bonus Point: Implement the feature for the user to restart the game after a tie or game over
